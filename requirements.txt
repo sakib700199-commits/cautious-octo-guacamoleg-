@@ -1,13 +1,4 @@
-aiogram>=3.1.0
-aiosqlite>=0.19.0
-aiohttp>=3.8.5
-google-generativeai>=0.3.0
-python-dotenv>=1.0.0
-
-# Dockerfile content below:
-# FROM python:3.10-slim
-# WORKDIR /app
-# COPY requirements.txt .
-# RUN pip install --no-cache-dir -r requirements.txt
-# COPY . .
-# CMD ["python", "bot.py"]
+pyTelegramBotAPI
+flask
+psutil
+requests
